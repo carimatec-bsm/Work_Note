@@ -1,0 +1,38 @@
+# Local Work Note data and exported backups
+*.json
+*.zip
+*.csv
+*.xlsx
+*.xls
+
+# Common attachment and document formats
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.hwp
+*.hwpx
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+
+# Local-only folders and development artifacts
+data/
+attachments/
+backups/
+exports/
+node_modules/
+react-work-note/
+sales-note-app/
+.env
+.env.*
+
+# Keep the reviewed web app icon even though image exports are ignored.
+!react/icons/
+!react/icons/work-note-icon.svg
